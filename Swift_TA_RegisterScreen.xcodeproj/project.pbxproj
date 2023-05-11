@@ -12,6 +12,12 @@
 		04A37AB229AE380F0045421E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A37AB129AE380F0045421E /* Assets.xcassets */; };
 		04A37AB529AE380F0045421E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A37AB429AE380F0045421E /* Preview Assets.xcassets */; };
 		04A37AD429AE4A590045421E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04A37AD329AE4A590045421E /* README.md */; };
+		4BA4001C2A0CE0F6005DF51F /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4001B2A0CE0F6005DF51F /* EmailView.swift */; };
+		4BA4001E2A0CEA53005DF51F /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4001D2A0CEA53005DF51F /* Password.swift */; };
+		4BA400202A0CEA66005DF51F /* ConfirmPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4001F2A0CEA66005DF51F /* ConfirmPassword.swift */; };
+		4BA400222A0CEC7B005DF51F /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA400212A0CEC7B005DF51F /* GenderView.swift */; };
+		4BA400242A0D07D4005DF51F /* HeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA400232A0D07D4005DF51F /* HeightView.swift */; };
+		4BA400262A0D12ED005DF51F /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA400252A0D12ED005DF51F /* RegisterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,12 @@
 		04A37AB129AE380F0045421E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A37AB429AE380F0045421E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04A37AD329AE4A590045421E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4BA4001B2A0CE0F6005DF51F /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		4BA4001D2A0CEA53005DF51F /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		4BA4001F2A0CEA66005DF51F /* ConfirmPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPassword.swift; sourceTree = "<group>"; };
+		4BA400212A0CEC7B005DF51F /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
+		4BA400232A0D07D4005DF51F /* HeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightView.swift; sourceTree = "<group>"; };
+		4BA400252A0D12ED005DF51F /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 			children = (
 				04A37AAD29AE380D0045421E /* Swift_TA_RegisterScreenApp.swift */,
 				04A37AAF29AE380D0045421E /* ContentView.swift */,
+				4BA4001B2A0CE0F6005DF51F /* EmailView.swift */,
+				4BA4001D2A0CEA53005DF51F /* Password.swift */,
+				4BA4001F2A0CEA66005DF51F /* ConfirmPassword.swift */,
+				4BA400212A0CEC7B005DF51F /* GenderView.swift */,
+				4BA400232A0D07D4005DF51F /* HeightView.swift */,
+				4BA400252A0D12ED005DF51F /* RegisterButton.swift */,
 				04A37AB129AE380F0045421E /* Assets.xcassets */,
 				04A37AB329AE380F0045421E /* Preview Content */,
 			);
@@ -141,8 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA400262A0D12ED005DF51F /* RegisterButton.swift in Sources */,
+				4BA4001E2A0CEA53005DF51F /* Password.swift in Sources */,
 				04A37AB029AE380D0045421E /* ContentView.swift in Sources */,
 				04A37AAE29AE380D0045421E /* Swift_TA_RegisterScreenApp.swift in Sources */,
+				4BA400222A0CEC7B005DF51F /* GenderView.swift in Sources */,
+				4BA400242A0D07D4005DF51F /* HeightView.swift in Sources */,
+				4BA4001C2A0CE0F6005DF51F /* EmailView.swift in Sources */,
+				4BA400202A0CEA66005DF51F /* ConfirmPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

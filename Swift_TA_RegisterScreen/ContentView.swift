@@ -8,14 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var email: String = ""
+    @State var password: String = ""
+    @State var confirmPassword: String = ""
+    @State var selGender: Gender = .female
+    @State var sliderValue: Double = 50.0
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(alignment: .leading) {
+            ScrollView {
+            Text("Registration Screen")
+                    .foregroundColor(.purple)
+                    .font(.title)
+                    .padding()
+                
+                EmailView(email: $email)
+                    .padding()
+                Password(password: $password)
+                    .padding()
+                ConfirmPassword(confirmPassword: $confirmPassword)
+                    .padding()
+                GenderView(selGender: $selGender)
+                HeightView(sliderValue: $sliderValue)
+                    .padding()
+                RegisterButton(email: $email, password: $password, confirmPassword: $confirmPassword, gender: $selGender, height: $sliderValue)
+                    .padding()
+            }
         }
-        .padding()
     }
 }
 
